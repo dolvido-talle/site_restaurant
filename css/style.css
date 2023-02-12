@@ -1,0 +1,35 @@
+li{
+
+    list-style-type: none; /*retirer les points points*/
+    display:inline;  /*mettre en ligne*/
+    padding: 6%; /* peremt de manipuler un element dans le bloc ou il est contenu*/
+}
+
+a:hover{ /* permet a ce que lorsque on place le curseur sur un eleemnt du site il sagrandi et change de couleur*/
+    color:greenyellow;
+    font-family: Arial;
+    font-size: 25px;
+}
+img{
+    border:5px solid blue;   /*donner les bordures a limage*/
+    border-color:violet;
+    border-radius: 50%; /*POUR RENDRE CIRCULAIRE*/
+    padding:5%;
+    margin-left: 5%;
+}
+a:visited{
+    color: cyan;
+}
+a:visited{
+    color:red;
+}
+footer{
+     border:1px solid ;
+    border-color: tomato; 
+    width: 100%; /*permet de augmenter le cadre sur les informations du proprio du site*/
+    margin-bottom: 2%; /* permet de defiler le site vers le bas jusqua un certains*/
+}
+body{
+    width:100%;
+    display: table;
+}
